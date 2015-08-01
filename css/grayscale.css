@@ -17,7 +17,7 @@ html {
     height: 100%;
 }
 
-h1,
+h1 { font-family: 'Rock Salt', cursive; }
 h2,
 h3,
 h4,
@@ -147,7 +147,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+    background: url(../img/fa.jpg) no-repeat top center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -158,6 +158,7 @@ a:focus {
 .intro .intro-body {
     display: table-cell;
     vertical-align: middle;
+    /*padding-top: 200px;*/
 }
 
 .intro .intro-body .brand-heading {
@@ -261,17 +262,17 @@ a:focus {
     padding-top: 100px;
 }
 
-.download-section {
+/*.transportation-section {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+    background: url(../img/bike-edited.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-}
+}*/
 
 #map {
     width: 100%;
@@ -284,12 +285,12 @@ a:focus {
         padding-top: 250px;
     }
 
-    .download-section {
+    .transportation-section {
         padding: 100px 0;
     }
 
     #map {
-        height: 400px;
+        height: 600px;
         margin-top: 250px;
     }
 }
