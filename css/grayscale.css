@@ -157,8 +157,9 @@ a:focus {
 
 .intro .intro-body {
     display: table-cell;
-    vertical-align: middle;
-    /*padding-top: 200px;*/
+    vertical-align: top;
+    padding-top: 50px;
+    float: left;
 }
 
 .intro .intro-body .brand-heading {
@@ -262,17 +263,17 @@ a:focus {
     padding-top: 100px;
 }
 
-/*.transportation-section {
+.transportation-section {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(../img/bike-edited.jpg) no-repeat center center scroll;
+    background: url(../img/wb.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-}*/
+}
 
 #map {
     width: 100%;
@@ -287,6 +288,7 @@ a:focus {
 
     .transportation-section {
         padding: 100px 0;
+        height: 350px;
     }
 
     #map {
